@@ -7,9 +7,9 @@ func main() {
     //Condional compuesta
 	var num1, num2, num3 int
 
-	fmt.Scan(num1)
-	fmt.Scan(num2)
-	fmt.Scan(num3)
+	fmt.Scan(&num1)
+	fmt.Scan(&num2)
+	fmt.Scan(&num3)
 
 
 	if (num1 > num2 && num1 > num3){
